@@ -1,16 +1,33 @@
-# news_app
+# 📰 Flutter News App
 
-A new Flutter project.
+A news application built with **Flutter** that displays latest news articles with images and detailed views.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- Fetch news from API
+- Display news list
+- News details screen
+- Fallback image when image is missing
+- Navigation using GoRouter
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Screens
+- Home Screen (News List)
+- Details Screen (Full Article)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Tech Stack
+- Flutter
+- Dart
+- Dio
+- GoRouter
+
+---
+
+## ▶️ How to Run
+```bash
+flutter pub get
+flutter run
