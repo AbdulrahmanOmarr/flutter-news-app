@@ -27,6 +27,15 @@ A news application built with **Flutter** that displays latest news articles wit
 
 ---
 
+## 📱 App Screenshots
+
+### Home Screen
+![Home Screen](assets/screenshots/home.png)
+
+### Details Screen
+![Details Screen](assets/screenshots/details.png)
+
+
 ## ▶️ How to Run
 ```bash
 flutter pub get
