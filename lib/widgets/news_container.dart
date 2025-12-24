@@ -59,7 +59,7 @@ class _NewsContainerState extends State<NewsContainer> {
                         overflow: TextOverflow.ellipsis,
                         widget.newsMap["title"],
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 14.sp,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -69,7 +69,7 @@ class _NewsContainerState extends State<NewsContainer> {
                         overflow: TextOverflow.ellipsis,
                         widget.newsMap["description"] ?? "",
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 14.sp,
                           fontWeight: FontWeight.normal,
                         ),
                       ),
@@ -83,7 +83,7 @@ class _NewsContainerState extends State<NewsContainer> {
                               overflow: TextOverflow.ellipsis,
                               widget.newsMap["author"] ?? "",
                               style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 14.sp,
                                 fontWeight: FontWeight.w300,
                               ),
                             ),
@@ -91,7 +91,7 @@ class _NewsContainerState extends State<NewsContainer> {
                           Text(
                             "${widget.newsMap["publishedAt"]}",
                             style: TextStyle(
-                              fontSize: 16,
+                              fontSize: 14.sp,
                               fontWeight: FontWeight.w300,
                             ),
                           ),
